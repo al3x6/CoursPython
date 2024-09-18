@@ -3,7 +3,7 @@ import time
 
 def generate_words():
     """
-    Return : liste de mot, str
+    Return : liste de mot de pass, str
     """
     alphabet = [chr(i) for i in range(ord('a'), ord('z')+1)]
     words = []
