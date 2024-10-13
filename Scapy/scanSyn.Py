@@ -6,5 +6,5 @@ def detecter_scan_syn(packet):
         src_ip = packet[IP].src
         print(f"Scan SYN détecté de {src_ip}")
 
-# Capture du trafic réseau et application de la détection
-sniff(filter="tcp", prn=detecter_scan_syn)
+#Capture du trafic réseau et application de la détection
+#sniff(filter="tcp", prn=detecter_scan_syn)
