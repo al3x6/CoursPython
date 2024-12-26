@@ -12,4 +12,4 @@ def start_packet_capture(detecter_scan_syn, compter_paquets, duree, ip):
     else:
         filtre = "tcp"  # Capturer tous les paquets TCP
 
-    sniff(filter=filtre, prn=packet_callback, store=0, timeout= duree, )
+    sniff(filter=filtre, prn=packet_callback, store=0, timeout= duree )
